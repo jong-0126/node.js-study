@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Page</title>
+</head>
+<body>
+    <h1>Modify Page</h1>
+    <hr />
+    <form action="" method="post">
+        <fieldset>
+            <legend>Modify Data</legend>
+            <table>
+                <tr>
+                    <td><label for="">genre</label></td>
+                    <td><input type="text" name="genre" value="<%= data.genre %>"/></td>
+                </tr>
+                <tr>
+                    <td><label for="">name</label></td>
+                    <td><input type="text" name="name" value="<%= data.name %>"/></td>
+                </tr>
+                <tr>
+                    <td><label for="">writer</label></td>
+                    <td><input type="text" name="writer" value="<%= data.writer %>"/></td>
+                </tr>
+            </table>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
